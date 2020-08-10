@@ -35,6 +35,11 @@
   - changes the name and phone of the data with the ShipperID of 4
   - remember to test the WHERE condition with a SELECT before updating
 
+## Delete SQL queries
+
+- DELETE FROM Shippers WHERE ShipperID = 4;
+  - deletes the shipper with an id of 4
+
 ## SQL Style Rules
 
 - For dates and strings use single quotes to wrap them
