@@ -1,4 +1,4 @@
-## SQL queries
+## Select SQL queries
 
 - SELECT \* FROM Products
   - selects all data from Products table
@@ -21,6 +21,19 @@
   - gets the cheapest first 5 products from the table
 - SELECT \* FROM Products ORDER BY Price DESC LIMIT 5;
   - gets the most expensive products - first 5
+
+## Insert SQL queries
+
+- INSERT INTO Shippers (the, column, Names, use) VALUES (values, for, each, column);
+- INSERT INTO Shippers (Phone, ShipperName) VALUES ('(503) 555-9831', 'Lambda Shipping');
+  - inserts a shipper with Name Lambda Shipping into Shippers table
+  - get the number of rows affected from the database
+
+## Update SQL queries
+
+- UPDATE Shippers SET ShipperName = 'Lambda Shipping', Phone = '(212)-233-2332' WHERE ShipperID = 4;
+  - changes the name and phone of the data with the ShipperID of 4
+  - remember to test the WHERE condition with a SELECT before updating
 
 ## SQL Style Rules
 
